@@ -29,8 +29,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
            args: >
-              -Dsonar.organization=CypCld
-              -Dsonar.projectKey=tp-ci-cd
+              -Dsonar.organization=cypvld
+              -Dsonar.projectKey=CypVld_tp-ci-cd
               -Dsonar.sources=.
 
        
